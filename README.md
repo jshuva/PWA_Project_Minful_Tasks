@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 💎 MINDFUL. | Premium Task Manager PWA
 
 ![PWA Badge](https://img.shields.io/badge/PWA-Ready-blue?style=for-the-badge&logo=pwa)
@@ -85,9 +84,3 @@ npm run preview
 - **Browser Compatibility**: Best experienced on Chromium-based browsers (Chrome, Edge) to ensure full PWA installation support.
 - **Offline Logic**: The "Offline Badge" at the bottom uses the `navigator.onLine` API to detect network shifts in real-time.
 - **API Reliability**: Switched from Quotable to DummyJSON for enhanced SSL stability and consistent uptime.
-
----
-*Created for the MCDA5550 PWA Assignment.*
-=======
-# PWA_Project_Minful_Tasks
->>>>>>> 252a0c91a5930a675a65751e068579e154bcaa5e
