@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 💎 MINDFUL. | Premium Task Manager PWA
 
 ![PWA Badge](https://img.shields.io/badge/PWA-Ready-blue?style=for-the-badge&logo=pwa)
@@ -87,3 +88,6 @@ npm run preview
 
 ---
 *Created for the MCDA5550 PWA Assignment.*
+=======
+# PWA_Project_Minful_Tasks
+>>>>>>> 252a0c91a5930a675a65751e068579e154bcaa5e
