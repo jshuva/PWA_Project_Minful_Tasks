@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindful Tasks | Premium PWA</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Brand Header -->
+        <header class="app-header">
+            <h1 class="app-title">MINDFUL.</h1>
+            <p class="app-subtitle">Task management for mindful achievers</p>
+        </header>
+
+        <!-- Quote Section -->
+        <section class="card quote-container">
+            <div class="quote-text-wrapper">
+                <p id="quote-text" class="quote-text">"The best way to get started is to quit talking and begin doing."
+                </p>
+                <p id="quote-author" class="quote-author">Walt Disney</p>
+            </div>
+        </section>
+
+        <!-- Form Section -->
+        <section class="card">
+            <h2>✨ New Task</h2>
+            <form id="task-form" class="form-group">
+                <div class="input-wrapper">
+                    <label for="task-input">Task Description</label>
+                    <input type="text" id="task-input" placeholder="e.g., Complete PWA Project" required>
+                </div>
+                <div style="display: grid; grid-template-columns: 1.5fr 1fr; gap: 1rem;">
+                    <div class="input-wrapper">
+                        <label for="deadline-input">Deadline Date</label>
+                        <input type="date" id="deadline-input" required>
+                    </div>
+                    <button type="submit" class="btn-primary" style="margin-top: auto; height: 3.5rem;">Create
+                        Task</button>
+                </div>
+            </form>
+        </section>
+
+        <!-- List Section -->
+        <section>
+            <div
+                style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem; padding: 0 1rem;">
+                <h2 style="margin-bottom: 0;">📅 My Schedule</h2>
+                <span id="task-count" style="color: var(--text-muted); font-size: 0.85rem; font-weight: 600;">0
+                    tasks</span>
+            </div>
+            <div id="task-list" class="task-list">
+                <!-- Tasks will be injected here -->
+            </div>
+        </section>
+    </div>
+
+    <!-- Offline Indicator -->
+    <div id="offline-badge" class="status-badge">
+        <div class="dot"></div>
+        <span>Offline Mode Active</span>
+    </div>
+
+    <script type="module" src="/main.js"></script>
+</body>
+
+</html>
